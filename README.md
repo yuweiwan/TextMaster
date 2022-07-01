@@ -5,11 +5,11 @@ Current function:
   
 Thanks for your attention. This is the source code (demo version) of our Nature Energy submission "Opinion Mining and Deep Learning Methods for Maximising Discoverability of Energy Materials".
 
-Set up (Experimental Environment)
+Set up (Experimental environment)
 
 1. Make sure you have python3.8 and the pip module installed. We recommend using conda environments.
 
-2. After git clone this repository to local machine, navigate to the root folder of this repository and run `pip install --ignore-installed -r requirements.txt`
+2. After git clone this repository to local machine, navigate to the root folder of this repository and run `pip install --ignore-installed -r requirements.txt`. Note: if any packages files to be installed, you may need to install those packages manually by `pip install package_name`.
 Introduction of File meta_wos.ipynb
 
 The file contains the trained models. Running an executable file in File "Demo", the results can be directly observed without further training.
