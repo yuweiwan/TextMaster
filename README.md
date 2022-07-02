@@ -4,7 +4,8 @@ Current function:
 - Extract meta data of scientific literature from savedrecs files of Web of Science (`meta_wos.ipynb`).  
 - Automated opinion extraction and classification for scientific literature in materials science and related fields (`demo.ipynb`).  
   
-This is the source code (demo version) of our Nature Energy submission "Opinion Mining and Deep Learning Methods for Maximising Discoverability of Energy Materials". We use `.ipynb` to show the running results directly (Click the `.ipynb` file and you will see running results of each cell. You can also set up environment in your local machine and try out our functions with your own data). We will develop a more packaged api version of this project later.  
+This is the source code (demo version) of our Nature Energy submission "Opinion Mining and Deep Learning Methods for Maximising Discoverability of Energy Materials". We use `.ipynb` to show the running results directly (Click the `.ipynb` file and you will see running results of each cell. You can also set up environment in your local machine and try out our functions with your own data). We will develop a more packaged api version of this project later.
+
 Thanks for your attention. 
 
 ## Set up
@@ -16,10 +17,15 @@ Thanks for your attention.
 The analysis is based on savedrecs files from Web of Science. The running results shown in this file are based on 22752 perovskite related publications. To get your own savedrecs files, you can search papers on [Web of Science](https://www.webofscience.com/wos/woscc/basic-search) by keywords and the search results should be exported as plain text files.  
 
 We provide following functions:  
-- extract mata data as a json file 
-- visualization of publishers, journal names, publishment by year, data types, categories
+- Extract mata data as a json file 
+- Visualization of publishers, journal names, publishment by year, data types, categories
 
 ## Introduction of code file demo.ipynb
+The demo of our opinion mining system is composed of two parts: 
+- Reproduce the results of opinion extraction and classification models
+- Run opinion mining on a tiny text sample 
 
-## Note  
-Before using these codes, please get permission from the author WAN Yuwei, email: yuweiwan2-c@my.cityu.edu.hk 
+If you want to try opinion mining on your own data, please replace the content in `data/text.txt`.
+
+## Contact  
+If you have any problems, please email: yuweiwan2-c@my.cityu.edu.hk 
