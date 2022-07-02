@@ -3,7 +3,7 @@ Current function:
 - Extract meta data of scientific literature from savedrecs files of Web of Science  
 - Automated opinion extraction and classification for scientific literature in materials science and related fields.  
   
-Thanks for your attention. This is the source code (demo version) of our Nature Energy submission "Opinion Mining and Deep Learning Methods for Maximising Discoverability of Energy Materials".
+Thanks for your attention. This is the source code (demo version) of our Nature Energy submission "Opinion Mining and Deep Learning Methods for Maximising Discoverability of Energy Materials". We will develop a more packaged api version of this project later.
 
 Set up (Experimental environment)
 
@@ -14,6 +14,11 @@ Set up (Experimental environment)
 3. Stay in the root folder, manually download the models and data [data.zip](https://drive.google.com/file/d/1sOjwKw_y1WoUfSklIqw4UCOWHC8D7j7V/view?usp=sharing) and unzipped. 
 
 Introduction of File meta_wos.ipynb
+
+The analysis is based on savedrecs files from Web of Science. To get savedrecs files, the search results should be exported as plain text files.  
+We provide following functions:  
+- extract mata data  
+- visualization of publishers, journal names, publishment by year, data types, categories
 
 Introduction of File demo.ipynb
 
