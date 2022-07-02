@@ -26,14 +26,17 @@ The demo of our opinion mining system is composed of two parts:
 - Run opinion mining on a tiny text sample 
 
 The two models were trained on mixed-topic dataset (EoL, perovskite, ALD).  
-Results of opinion extraction on test set: 
-| Data group | f1-score |
+CNN model for opinion extraction obtained 94.21% f1-score on test set and for each category: 
+| Category | F1-score |
 | :--------: | :---: |
 |   non-opinion   | 95.05% |
 |   opinion    | 93.03% |
-|       | 94.21% |
 
-Results of opinion classification on test set:
+CNN-Attention model for opinion classification obtained 91.58% f1-score on test set and for each category: 
+| Category | F1-score |
+| :--------: | :---: |
+|   challenge   | 77.27% |
+|   opportunity    | 94.83% |
 
 If you want to try opinion mining on your own data, please replace the content in `data/text.txt`.
 
