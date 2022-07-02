@@ -26,28 +26,14 @@ The demo of our opinion mining system is composed of two parts:
 - Run opinion mining on a tiny text sample 
 
 The two models were trained on mixed-topic dataset (EoL, perovskite, ALD).  
-Results of opinion extraction on test set:
-
-|             | precision | recall | f1-score | support |
-| :--------:  | :---: | :---------: | :---------: | :---------: |
-| non-opinion | 0.055 |   99.98%    |   99.98%    |   99.98%    |
-|  opinion    | 0.025 |   99.98%    |   99.98%    |   99.98%    |
-|             | 0.037 |   99.98%    |   99.98%    |   99.98%    |
-|  accuracy   | 0.034 |   99.98%    |   99.98%    |   99.98%    |
-|  macro avg  | 0.114 |   99.87%    |   99.98%    |   99.98%    |
-| weighted avg| 0.056 |   99.95%    |   99.98%    |   99.98%    |
+Results of opinion extraction on test set: 
+| Data group | f1-score |
+| :--------: | :---: |
+|   non-opinion   | 95.05% |
+|   opinion    | 93.03% |
+|       | 94.21% |
 
 Results of opinion classification on test set:
-
-| Data group | Error | Correlation | Correlation | Correlation |
-| :--------: | :---: | :---------: | :---------: | :---------: |
-|   1(iso)   | 0.055 |   99.98%    |   99.98%    |   99.98%    |
-|   2(M3)    | 0.025 |   99.98%    |   99.98%    |   99.98%    |
-|   3(M2)    | 0.037 |   99.98%    |   99.98%    |   99.98%    |
-|   4(M1)    | 0.034 |   99.98%    |   99.98%    |   99.98%    |
-|   5(R1)    | 0.114 |   99.87%    |   99.98%    |   99.98%    |
-|   6(R2)    | 0.056 |   99.95%    |   99.98%    |   99.98%    |
-|   7(R3)    | 0.020 |   99.98%    |   99.98%    |   99.98%    |
 
 If you want to try opinion mining on your own data, please replace the content in `data/text.txt`.
 
