@@ -17,7 +17,7 @@ Thanks for your attention.
 The analysis is based on savedrecs files from Web of Science. The running results shown in this file are based on 22752 perovskite related publications. To get your own savedrecs files, you can search papers on [Web of Science](https://www.webofscience.com/wos/woscc/basic-search) by keywords and the search results should be exported as plain text files.  
 
 We provide following functions:  
-- Extract mata data as a json file 
+- Extract meta data as a json file 
 - Visualization of publishers, journal names, publishment by year, data types, categories
 
 ## Introduction of code file demo.ipynb
